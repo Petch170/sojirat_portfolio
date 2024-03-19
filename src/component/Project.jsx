@@ -11,7 +11,7 @@ const Project = () => {
    <div className=' grid sm:grid-cols-2 gap-12'>
     <ProjectItem img={imove} title='imove App'/>
     <ProjectItem img={reactwork} title='react Assignment'/>
-    <ProjectItem/>
+    {/* <ProjectItem/> */}
    </div>
     </div>
     
