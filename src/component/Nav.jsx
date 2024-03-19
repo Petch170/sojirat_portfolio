@@ -19,12 +19,12 @@ const Nav = () => {
   return (
     <div>
       {/* <p className=" text-blue-800 font-mono">1111</p> */}
-      <AiOutlineMenu
+      <AiOutlineMenu 
         onClick={handle}
-        className=" absolute top-4 right-4 z-[99] md:hidden"
+        className=" fixed top-4 right-4 z-[99] md:hidden bg-blue-200 rounded-md size-6"
       />
       {nav ? (
-        <div className=" fixed w-full h-screen bg-white/90 flex flex-col justify-center items-center z-20">
+        <div className=" fixed w-full h-screen bg-white/90 flex flex-col justify-center items-center z-20 ">
           <a onClick={handle}
             href="#main"
             className=" w-[75%] flex justify-center items-center rounded-full shadow-lg bg-gray-100 m-2 p-4 cursor-auto hover:scale-110 ease-in duration-200"
