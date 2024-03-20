@@ -2,6 +2,7 @@ import Contact from "./component/Contact";
 import Hero from "./component/Hero";
 import Nav from "./component/Nav";
 import Project from "./component/Project";
+import Skill from "./component/Skilld";
 import Work from "./component/Work";
 
 function App() {
@@ -9,9 +10,10 @@ function App() {
     <div>
       <Nav />
       <Hero />
-      <Work/> 
-      <Project/>
-      <Contact/>
+      <Skill />
+      <Work />
+      <Project />
+      <Contact />
     </div>
   );
 }
