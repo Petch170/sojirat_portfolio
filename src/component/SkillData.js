@@ -6,6 +6,7 @@ import mongo from '../assets/mongo.png'
 import node from '../assets/nodejs.png'
 import react from '../assets/react.png'
 import tailwind from '../assets/tailwind.png'
+import figma from '../assets/figma.png'
 
 
 export const SkillData =
@@ -40,5 +41,9 @@ export const SkillData =
 {
     image:mongo,
     name:'MongoDB'
+},
+{
+    image:figma,
+    name:'Figma'
 },
 ];
