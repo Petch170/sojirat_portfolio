@@ -14,17 +14,29 @@ const Project = () => {
         and dedication. Join me in exploring my abilities and creative insights!
       </p>
       <div className=" grid sm:grid-cols-2 gap-12">
+      {/* <ProjectItem
+          img={imove}
+          title="imove App"
+          url="https://github.com/Petch170/Project-I.Move-test.git"
+          demo="https://project-i-move-test.vercel.app/"
+          framework="React"
+          CSS="TailwindCSS"
+        /> */}
         <ProjectItem
           img={imove}
           title="imove App"
           url="https://github.com/Petch170/Project-I.Move-test.git"
           demo="https://project-i-move-test.vercel.app/"
+          framework="React"
+          CSS="TailwindCSS"
         />
         <ProjectItem
           img={reactwork}
           title="react Assignment"
           url="https://github.com/Petch170/24-react-assessment.git"
           demo="https://24-react-assessment.vercel.app/"
+          framework="React"
+          CSS="TailwindCSS"
         />
         {/* <ProjectItem/> */}
       </div>

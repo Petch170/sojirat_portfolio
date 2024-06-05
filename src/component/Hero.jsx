@@ -2,7 +2,7 @@ import React from "react";
 import { TypeAnimation } from "react-type-animation";
 import { FaGithub, FaLinkedinIn, FaCloudDownloadAlt } from "react-icons/fa";
 import mypic from "../assets/mypic.jpg";
-import CV from "../assets/CV_Sojirat.p.pdf";
+import CV from "../assets/Sojirat.P_CV.pdf";
 
 const Hero = () => {
   return (
